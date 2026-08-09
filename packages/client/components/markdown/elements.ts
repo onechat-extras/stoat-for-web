@@ -156,14 +156,20 @@ export const blockquote = styled("blockquote", {
 
 export const table = styled("table", {
   base: {
+    width: "100%",
+    overflow: "hidden",
     borderCollapse: "collapse",
+    borderRadius: "var(--borderRadius-md)",
+    outline: "1px solid var(--md-sys-color-outline)",
   },
 });
 
 export const tableHeader = styled("th", {
   base: {
     fontWeight: 600,
+    textAlign: "left",
     padding: "var(--gap-sm)",
+    background: "var(--md-sys-color-on-primary)",
     border: "1px solid var(--md-sys-color-outline)",
   },
 });
