@@ -16,8 +16,6 @@ import { SpecialEmbed } from "./SpecialEmbed";
 
 const Base = styled("div", {
   base: {
-    width: "fit-content",
-
     display: "flex",
     maxWidth: "calc(min(100%, 420px))",
     flexDirection: "row",
