@@ -91,7 +91,9 @@ export const heading6 = styled("h6", {
 });
 
 export const listItem = styled("li", {
-  base: {},
+  base: {
+    "&>code": inlineCodeStyles,
+  },
 });
 
 export const unorderedList = styled("ul", {
