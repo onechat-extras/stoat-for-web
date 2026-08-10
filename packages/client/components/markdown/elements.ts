@@ -92,7 +92,6 @@ export const heading6 = styled("h6", {
 
 export const listItem = styled("li", {
   base: {
-    "&>code": inlineCodeStyles,
   },
 });
 
@@ -184,9 +183,7 @@ export const tableElement = styled("td", {
 });
 
 export const code = styled("code", {
-  base: {
-    fontFamily: "var(--fonts-monospace)",
-  },
+  base: inlineCodeStyles,
 });
 
 export const time = cva({
